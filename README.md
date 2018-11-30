@@ -1,6 +1,6 @@
 # Hierarchical Attention Networks for Document Classification
 
-This is a TensorFlow-based implementation of the paper [Hierarchical Attention Networks for Document Classification](https://www.cs.cmu.edu/~hovy/papers/16HLT-hierarchical-attention-networks.pdf), NAACL 2016.
+This is an implementation of the paper [Hierarchical Attention Networks for Document Classification](https://www.cs.cmu.edu/~hovy/papers/16HLT-hierarchical-attention-networks.pdf), NAACL 2016.
 
 ![alt tag](img/model.png)
 
