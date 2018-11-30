@@ -28,13 +28,15 @@ We use the [data](http://ir.hit.edu.cn/~dytang/paper/emnlp2015/emnlp-2015-data.7
 
 First, download the [datasets](#data) and unzip into `data` folder.
 <br>
-Then, run script to prepare the data (default is using Yelp-2015 dataset):
+Then, run script to prepare the data *(default is using Yelp-2015 dataset)*:
 
 ```bash
 python data_prepare.py
 ```
 
 Train and evaluate the model:
+<br>
+*(make sure [Glove embeddings](#requirements) are ready before training)*
 
 ```bash
 python train.py
