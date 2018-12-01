@@ -22,7 +22,6 @@ We use the [data](http://ir.hit.edu.cn/~dytang/paper/emnlp2015/emnlp-2015-data.7
 - Yelp 2014
 - Yelp 2015
 
-
 ## Usage
 
 First, download the [datasets](#data) and unzip into `data` folder.
@@ -80,11 +79,11 @@ optional arguments:
 
 ## Results
 
-With *Yelp-2015* dataset, after 3 epochs, we achieve
+With the *Yelp-2015* dataset, after 5 epochs, we achieved:
 
-- **68.71%** accuracy on the *dev set*
-- **68.74%** accuracy on the *test set*
+- **69.11%** accuracy on the *dev set*
+- **69.14%** accuracy on the *test set*
 
-No systematic hyper-parameter tunning was performed.
+No systematic hyper-parameter tunning was performed. The result reported in the paper is **71.0%** for the *Yelp-2015*.
 
 ![alt tag](img/log.png)
