@@ -13,7 +13,6 @@ This is an implementation of the paper [Hierarchical Attention Networks for Docu
 - Tqdm
 - [Glove pre-trained word embeddings](http://nlp.stanford.edu/data/glove.6B.zip)
 
-
 ## Data
 
 We use the [data](http://ir.hit.edu.cn/~dytang/paper/emnlp2015/emnlp-2015-data.7z) provided by [Tang et al. 2015](http://ir.hit.edu.cn/~dytang/paper/emnlp2015/emnlp2015.pdf), including 4 datasets:
@@ -37,17 +36,19 @@ python data_prepare.py
 Train and evaluate the model:
 <br>
 *(make sure [Glove embeddings](#requirements) are ready before training)*
-
+```
+wget http://nlp.stanford.edu/data/glove.6B.zip
+unzip glove.6B.zip
+```
 ```bash
 python train.py
 ```
 
-Print hyper-parameters:
+Print training arguments:
 
 ```bash
 python train.py --help
 ```
-
 ```
 optional arguments:
   -h, --help            show this help message and exit
@@ -78,3 +79,12 @@ optional arguments:
 ```
 
 ## Results
+
+With *Yelp-2015* dataset, after 3 epochs, we achieve
+
+- **68.71%** accuracy on the *dev set*
+- **68.74%** accuracy on the *test set*
+
+No systematic hyper-parameter tunning was performed.
+
+![alt tag](img/log.png)
