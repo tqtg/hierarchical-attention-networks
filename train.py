@@ -171,7 +171,7 @@ def main(_):
       print('Best testing accuracy = {:.2f}'.format(test_acc))
 
   print("{} Optimization Finished!".format(datetime.now()))
-  print('Best testing accuracy = {:.2f}'.format(best_acc * 100))
+  print('Best testing accuracy = {:.2f}'.format(best_acc))
 
 
 if __name__ == '__main__':
