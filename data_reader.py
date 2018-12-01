@@ -30,7 +30,7 @@ class DataReader:
         new_data.append((doc, label))
 
     # sort data by sent lengths to speed up
-    # new_data = sorted(new_data, key=lambda x: len(x[0]))
+    new_data = sorted(new_data, key=lambda x: len(x[0]))
     return new_data
 
   def _batch_iterator(self, data, batch_size, desc=None):

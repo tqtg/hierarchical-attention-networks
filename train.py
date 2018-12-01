@@ -167,7 +167,7 @@ def main(_):
 
       if test_acc > best_acc:
         best_acc = test_acc
-        # saver.save(sess, FLAGS.checkpoint_dir)
+        saver.save(sess, FLAGS.checkpoint_dir)
       print('Best testing accuracy = {:.2f}'.format(test_acc))
 
   print("{} Optimization Finished!".format(datetime.now()))
