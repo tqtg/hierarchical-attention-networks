@@ -86,4 +86,4 @@ With the *Yelp-2015* dataset, after 5 epochs, we achieved:
 
 No systematic hyper-parameter tunning was performed. The result reported in the paper is **71.0%** for the *Yelp-2015*.
 
-![alt tag](img/log.png)
+![alt tag](img/train_log.png)
