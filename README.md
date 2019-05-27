@@ -81,8 +81,8 @@ optional arguments:
 
 With the *Yelp-2015* dataset, after 5 epochs, we achieved:
 
-- **69.11%** accuracy on the *dev set*
-- **69.14%** accuracy on the *test set*
+- **69.7%** accuracy on the *dev set*
+- **69.5%** accuracy on the *test set*
 
 No systematic hyper-parameter tunning was performed. The result reported in the paper is **71.0%** for the *Yelp-2015*.
 
