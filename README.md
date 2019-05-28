@@ -22,6 +22,9 @@ We use the [data](http://ir.hit.edu.cn/~dytang/paper/emnlp2015/emnlp-2015-data.7
 - Yelp 2014
 - Yelp 2015
 
+**Note:**
+The original data seems to have an [issue](https://github.com/tqtg/hierarchical-attention-networks/issues/1) with unzipping. I re-uploaded the [data](https://drive.google.com/file/d/1OQ_ggjlNUWiTg_zFXc0_OpYXpJRwJP3y) to GG Drive for better downloading speed. Please request for access permission.
+
 ## Usage
 
 First, download the [datasets](#data) and unzip into `data` folder.
